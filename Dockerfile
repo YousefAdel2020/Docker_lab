@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-LABEL maintainer="compiler@aast.edu"
+LABEL maintainer="yousefjooo2018@gmail.com"
 ENV TZ=Africa/Cairo
 RUN ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN apt update
